@@ -100,13 +100,13 @@
                 <div class="page-footer__quick-links__links">
                     <ul class="contact-list">
                         <li>
-                            <img src="../../assets/images/call.png" alt="" width="28px" height="25px"> <a> (+44) 7960640277</a>
+                            <img src="./assets/images/call.png" alt="" width="28px" height="25px"> <a> (+44) 7960640277</a>
                         </li>
                         <li>
-                            <img src="../../assets/images/email.png" alt="" width="28px" height="25px"> <a> grocerEase@gmail.com </a>
+                            <img src="./assets/images/email.png" alt="" width="28px" height="25px"> <a> grocerEase@gmail.com </a>
                         </li>
                         <li>
-                            <img src="../../assets/images/fax.png" alt="" width="28px" height="25px"> <a> Cleckhuddersfax</a>
+                            <img src="./assets/images/fax.png" alt="" width="28px" height="25px"> <a> Cleckhuddersfax</a>
                         </li>
                     </ul>
                 </div>
