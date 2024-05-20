@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Product Page</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- Header Section -->
+    <header>
+      <div class="logo">Logo</div>
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Products</a></li>
+          <li><a href="#">Category</a></li>
+        </ul>
+      </nav>
+      <div class="search-bar">
+        <input type="text" placeholder="Search Products" id="search-input" />
+        <button id="search-button">Search</button>
+      </div>
+      <div class="user-icon">
+        <img src="images/user-icon.png" alt="User" />
+      </div>
+    </header>
+
+    <!-- Main Content -->
+    <div class="main-content">
+      <div class="new-products">
+        <h2>New Products</h2>
+        <div id="new-products-container">
+          <!-- Product cards will be dynamically loaded here -->
+        </div>
+      </div>
+
+      <div class="featured-section">
+        <h2>Our New Product Photos</h2>
+        <img src="images/featured.jpg" alt="Featured" />
+      </div>
+
+      <div class="categories">
+        <h2>Shop by Category</h2>
+        <select id="category-select">
+          <option value="all">All Categories</option>
+          <!-- Categories will be dynamically loaded here -->
+        </select>
+      </div>
+    </div>
+
+    <!-- Banners -->
+    <div class="banners">
+      <div class="banner-left">&lt;</div>
+      <div class="banner" id="banner-container">BANNERS</div>
+      <div class="banner-right">&gt;</div>
+    </div>
+
+    <!-- Product Listings -->
+    <div class="product-listings">
+      <h2>Product Listings</h2>
+      <div id="product-listings-container">
+        <!-- Product cards will be dynamically loaded here -->
+      </div>
+    </div>
+
+    <!-- Review Section -->
+    <div class="review-section">
+      <p>
+        After purchasing the items, please leave a review to help others in
+        making their decisions and help traders improve their offerings.
+      </p>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+      <div class="footer-links">
+        <a href="#">Home</a>
+        <a href="#">Products</a>
+        <a href="#">Top Deals</a>
+        <a href="#">Contact Us</a>
+      </div>
+      <div class="contact-info">
+        <p>Phone: 123-456-7890</p>
+        <p>Email: support@example.com</p>
+      </div>
+      <div class="footer-logo">
+        <img src="images/logo.png" alt="Logo" />
+        <p>Shop with us for the best products at unbeatable prices.</p>
+      </div>
+    </footer>
+
+    <script src="app.js"></script>
+  </body>
+</html>
