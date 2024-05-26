@@ -1,0 +1,101 @@
+.btn{
+    font-size:$font-size-sm;
+    outline: none;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: 600;
+    padding: 0.5rem 0.75rem;
+    border-radius: 4px;
+    letter-spacing: 0.05rem;
+}
+
+.primary-btn{
+    background-color: $primary-color;
+    border: 1px $primary-color;
+    color: white;
+    transition: 0.3s ease-in-out;
+
+    &:hover{
+        background-color: $primary-hover-color;
+    }
+
+}
+.success-btn{
+
+}
+.danger-btn{
+    background-color: $danger-color;
+    border: 1px $danger-color;
+    color: white;
+    transition: 0.3s ease-in-out;
+    &:hover{
+        background-color: $danger-hover-color;
+    }
+
+
+}
+.clear-btn{
+    border: 1px solid $secondary-color;
+    background-color: transparent;
+    color: var(--text-color);
+}
+
+.primary-outline-btn{
+    border: 1px solid $primary-color;
+    color: $primary-color;
+    transition: 0.3s ease-in-out;
+    background-color: transparent;
+
+    &:hover{
+        color: white;
+        background-color:$primary-hover-color ;
+    }
+}
+
+.danger-outline-btn{
+    border: 1px solid $danger-color;
+    color: $danger-color;
+    transition: 0.3s ease-in-out;
+    background-color: transparent;
+
+    &:hover{
+        color: white;
+        background-color: $danger-hover-color;
+    }
+}
+
+.btn-max{
+    width: 100%;
+}
+
+.btn-lg{
+    min-width: 200px;
+}
+.card-btn{
+    width: 100%;
+}
+
+.form-btn{
+   
+    padding:  0.7rem;
+
+    @media only screen and (max-width:$screen-md) {
+        padding:  0.5rem;
+  
+    }
+    
+}
+
+.button-desc{
+    text-align: center;
+    font-size: $font-size-sm;
+    color: $secondary-color;
+    margin-bottom: 0.4rem;
+}
+.disabled-btn{
+    opacity: 0.5;
+    pointer-events: none;
+    cursor: not-allowed;
+}
